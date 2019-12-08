@@ -1,0 +1,88 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+}
+.movieLists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.poster {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    border: 1px gainsboro solid;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.title {
+    text-align: center;
+    color: yellow;
+    font-size: x-large;
+}
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.searchBar input {
+    width: 40%;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.searchBar button {
+    background-color: white;
+    border-radius: 50%;
+}
+.switchMovieBtn {
+    background-color: transparent;
+    color: yellow;
+    border: none;
+    height: 30px;
+}
+.rotatePoster {
+    -webkit-animation:spin linear 1s;
+    -moz-animation:spin linear 1s;
+    animation:spin linear 1s;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate3d(0, 1, 0, 360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate3d(0, 1, 0, 360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate3d(0, 1, 0, 360deg); rotate3d(0, 1, 0, 360deg); } }
+
+/*Movie Detail Page*/
+#movieDetailBody {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+.detailsPoster {
+    width: 400px;
+    height: 600px;
+
+}
+.details {
+    font-size: xx-large;
+}
+.backBtn {
+    font-size: 50px;
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+}
+#favoriteBtn {
+    background-color: transparent;
+    border: none;
+    color: yellow;
+    font-size: 50px;
+}
+
+
+
+
