@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8f0ef38-6b67-4147-8c48-a1f29e0811fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyVideoApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/getFavoriteMovies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/getMovieDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/getMoviesByName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/movies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/movieDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/getMovieDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/getMovieDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575681257607</updated>
       <workItem from="1575681258706" duration="556000" />
-      <workItem from="1575681928589" duration="24573000" />
+      <workItem from="1575681928589" duration="24638000" />
+      <workItem from="1576124005057" duration="1005000" />
+      <workItem from="1576125149365" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1575681695240</created>
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575681695240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished the main to screens, with ajax, localstorage, &#10;javascript, CSS animations, and transformations">
+      <created>1575778934279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575778934279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="finished the main to screens, with ajax, localstorage, &#10;javascript, CSS animations, and transformations" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the main to screens, with ajax, localstorage, &#10;javascript, CSS animations, and transformations" />
   </component>
 </project>

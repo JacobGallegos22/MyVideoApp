@@ -1,4 +1,5 @@
 let slideIndex = 1;
+const inputSearchInput = document.getElementById('movieSearch');
 const showDivs = (n) => {
   let i;
   const x = document.getElementsByClassName('moviePoster');
@@ -11,12 +12,16 @@ const showDivs = (n) => {
   x[slideIndex-1].style.display = "block";
   x[slideIndex-1].className = "moviePoster poster rotatePoster"
 };
-const searchMovie = () => {
-  const inputSearchValue = document.getElementById('movieSearch').value;
+const searchMovie = (title = '') => {
+  if (title.length > 0) {
+    inputSearchInput.value = title;
+  }
+  const inputSearchValue = inputSearchInput.value;
+  
+  localStorage.setItem('searchTitle', inputSearchValue);
   const movieList = document.getElementById('movieList')
 
   getMoviesByName(inputSearchValue).then(response => {
-    console.log(response);
     while (movieList.firstChild) {
       movieList.removeChild(movieList.firstChild);
     }
@@ -41,6 +46,12 @@ const getMoviesByName = async (movieName) => {
 const plusDivs = (n) => {
   showDivs(slideIndex += n);
 };
+
+if (localStorage.getItem('searchTitle')) {
+  searchMovie(localStorage.getItem('searchTitle'));
+} else {
+  searchMovie('batman');
+}
 
 
 

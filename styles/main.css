@@ -43,6 +43,9 @@ body {
     color: yellow;
     border: none;
     height: 30px;
+    vertical-align: middle;
+    text-align: center;
+
 }
 .rotatePoster {
     -webkit-animation:spin linear 1s;
@@ -68,10 +71,10 @@ body {
 
 }
 .details {
-    font-size: xx-large;
+    font-size: x-large;
 }
 .backBtn {
-    font-size: 50px;
+    font-size: 25px;
     background-color: yellow;
     color: black;
     border-radius: 25px;
@@ -80,7 +83,22 @@ body {
     background-color: transparent;
     border: none;
     color: yellow;
-    font-size: 50px;
+    font-size: 44px;
+}
+.starTransitionBig {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    font-size: 60px !important;
+    
+}
+.starTransitionSmall {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    font-size: 44px !important;
 }
 
 

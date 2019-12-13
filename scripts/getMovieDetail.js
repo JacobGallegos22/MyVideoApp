@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const movie = urlParams.get('id');
 let favorite = urlParams.get('favorite');
 const favoriteIcon = document.getElementById('favoriteIcon');
+const favoriteButton = document.getElementById('favoriteBtn');
 
 favoriteIcon.className = favorite ? 'fas fa-star' : 'far fa-star';
 
@@ -35,6 +36,7 @@ const favoriteMovie = () => {
     window.localStorage.setItem('favorites', JSON.stringify(favorites));
     favorite = true;
     favoriteIcon.className = favorite ? 'fas fa-star' : 'far fa-star';
+    favoriteButton.className = favorite ? 'starTransitionBig' : 'starTransitionSmall';
 
 
   } else {
@@ -48,8 +50,8 @@ const favoriteMovie = () => {
       window.localStorage.setItem('favorites', JSON.stringify(favoritesList));
       favorite = false;
       favoriteIcon.className = favorite ? 'fas fa-star' : 'far fa-star';
-
-
+      favoriteButton.className = favorite ? 'starTransitionBig' : 'starTransitionSmall';
+  
 
 
     }
